@@ -3,7 +3,6 @@
     <v-card>
       <!-- Main toolbar for splash page -->
       <v-app-bar dark flat tile class="primary" fixed>
-        <v-app-bar-title>A Placeholder Title</v-app-bar-title>
         <!-- Make into a link to the homepage -->
         <v-spacer></v-spacer>
         <v-toolbar-items v-for="item in menuItems" :key="item.title">
@@ -25,6 +24,7 @@
             </v-btn>
           </v-hover>
         </v-toolbar-items>
+        <v-spacer></v-spacer>
       </v-app-bar>
     </v-card>
     <v-btn
